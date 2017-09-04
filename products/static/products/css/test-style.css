@@ -1,0 +1,220 @@
+/*global overrides*/
+
+body,html{
+  width:100%;
+  height:100%;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+ul li
+{
+  display: inline-block;
+}
+
+img
+{
+  width:100%;
+}
+
+
+/*header*/
+header
+{
+  display:block;
+}
+
+.navbar
+{
+  width:100%;
+  text-align: center;
+}
+
+.navbar-header
+{
+  width:auto;
+  padding: 0;
+  text-align:center;
+}
+.navbar-header div
+{
+  display:inline-block;
+}
+
+a.navbar-brand
+{
+  padding:0;
+  width: 150px;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align:bottom;
+}
+
+.navbar-form
+{
+  display: inline-block;
+  vertical-align: bottom;
+  margin:0;
+  width:100%;
+
+  position: relative;
+}
+
+.form-group
+{
+  width:100%;
+}
+
+.navbar-form input.form-control
+{
+  background: transparent;
+  width: 100%;
+
+}
+
+.navbar-form button
+{
+  background: transparent;
+  padding:0;
+  position: absolute;
+  right:25px;
+  top:18px;
+
+}
+
+.iconGroup
+{
+  margin-top: 15px;
+  float:left;
+}
+.icons
+{
+  font-size: 28px;
+  padding:2px;
+  margin: 0 20px;
+}
+
+.cart i
+{
+  padding: 0px;
+  width: 100%;
+  height:100%;
+}
+.navbar-toggle
+{
+  margin-top:15px;
+}
+
+.navbar-collapse .navbar-nav
+{
+  width:100%;
+  text-align: center;
+  margin:0;
+}
+
+.navbar-nav li
+{
+  float:none;
+  display:block;
+  margin:2px;
+  width:100%;
+}
+
+
+
+.navbar-nav li a
+{
+  font-size:20px;
+}
+
+
+
+.dropdown-menu
+{
+  min-width:200px;
+  text-align: center;
+  border-radius: 0 0 30px 30px;
+}
+
+.dropdown-menu li
+{
+  width:90%;
+}
+.dropdown-menu li:last-of-type a
+{
+  border-radius: 0 0 20px 20px;
+}
+
+.category-container
+{
+  width:100%;
+  height:100%;
+  position:relative;
+}
+
+/*header ends*/
+/*footer starts*/
+footer
+{
+
+  bottom:0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+
+footer ul li
+{
+  margin: 10px;
+}
+/*footer ends*/
+.hero
+{
+  width:100%;
+  height:100%;
+  margin:0;
+  z-index:-1;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(255,255,255,0.03);
+}
+
+
+.bannerText
+{
+  position: absolute;
+  display:block;
+  width: 80%;
+  top: 250px;
+  left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+  right:auto;
+  text-align: center;
+}
+
+.bannerText h1
+{
+  font-size: 50px;
+}
+
+.page-content
+{
+  margin-top: 150px;
+}
+
+@media(max-width:370px)
+{
+  .icons
+  {
+    font-size: 28px;
+    padding:2px;
+    margin: 0 15px;
+  }
+
+}
