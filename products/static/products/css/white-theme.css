@@ -1,42 +1,76 @@
-.navbar
+.main-navbar
 {
   background-color: rgba(255,255,255,0.15);
   border-bottom: 1px solid #f1f1f1;
-  box-shadow: 0 0 2px #f1f1f1;
+  box-shadow: 0 0 2px #000;
+  background-color: #F7F5EC;
+
+
 }
 
-.navbar-header div
+
+.main-navbar-header div
 {
   color:black;
+  color: #535766;
 }
-.navbar-form input.form-control
+
+.main-navbar .search-btn
+{
+  background-color:transparent;
+  border:none;
+}
+.small-button
+{
+  background-color: transparent!important;
+  color: black!important;
+  border:none!important;
+}
+.navbar-cart-btn
+{
+    background-color:orange;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navbar-user-btn
+{
+
+}
+
+.main-navbar-form input.form-control
 {
   background: transparent;
   color: white;
   border-color: black;
+  color: #535766;
 }
-.navbar-form input.form-control::placeholder
+.main-navbar-form input.form-control::placeholder
 {
   color:black;
+  color: #535766;
 }
 
-.navbar-form button
+.main-navbar-form button
 {
   color:black;
+    color: #535766;
 }
 
-.navbar-nav li.open a.dropdown-toggle:hover
+
+.main-navbar-menu-list li.open a.dropdown-toggle:hover
 {
   background-color:rgba(0,0,0,0.5);
   color:white;
 }
 
-.navbar-nav li a
+.main-navbar-menu-list li a
 {
   color:black;
+  color: #535766;
 }
 
-.navbar-nav li.open a.dropdown-toggle
+.main-navbar-menu-list li.open a.dropdown-toggle
 {
   background-color:rgba(0,0,0,0.5);
   color:white;
@@ -51,11 +85,26 @@
   color:white;
 }
 
-button.navbar-toggle
+button.main-navbar-toggle
 {
   color:black;
   border: 1px solid black;
 }
+.user-action-list
+{
+  background-color: white;
+}
+.user-action-list li
+{
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.user-action-list li a
+{
+  color:black;
+  color: #535766;
+
+}
+
 
 /*header ends*/
 /*footer starts*/
@@ -94,11 +143,11 @@ footer a
 @media(max-width:768px)
 {
   /*optimisation of color for small screen*/
-  #myNavbar
+  #mymain-navbar
   {
     background-color:rgba(255,255,255,0.7);
   }
-  #myNavbar li a
+  #mymain-navbar li a
   {
     color:black;
   }

@@ -1,14 +1,4 @@
 @media(max-width: 800px) and (min-width: 500px)
 {
-  .navbar-header
-  {
-    width:100%;
-    padding: 10px 100px;
-    text-align:center;
-  }
-  .navbar-form input.form-control
-  {
-    background: transparent;
-    width: 200px;
-  }
+  
 }
