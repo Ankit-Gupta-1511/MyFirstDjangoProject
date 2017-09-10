@@ -47,3 +47,12 @@ def detail(request, product_id):
                 'product': product,
             }
             return HttpResponse(template.render(context, request))
+
+def user(request):
+    all_categories = Categories.objects.all()
+    template = loader.get_template('products/user-index.html')
+    context = {
+        'all_categories': all_categories,
+        'sub_categories_menu': sub_categories_menu,
+    }
+    return HttpResponse(template.render(context, request))
