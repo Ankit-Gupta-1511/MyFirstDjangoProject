@@ -56,3 +56,12 @@ def user(request):
         'sub_categories_menu': sub_categories_menu,
     }
     return HttpResponse(template.render(context, request))
+
+def adminDash(request):
+    all_categories = Categories.objects.all()
+    template = loader.get_template('products/admin-home.html')
+    context = {
+        'all_categories': all_categories,
+        'sub_categories_menu': sub_categories_menu,
+    }
+    return HttpResponse(template.render(context, request))

@@ -1,0 +1,83 @@
+@media(max-width:450px) {
+  .page-content
+  {
+    margin: 10px auto;
+    width:100%;
+  }
+
+  .user-side-menu
+  {
+      width: 20%;
+      display:none;
+      vertical-align: top;
+      margin:0 50px;
+      padding:70px 20px;
+      height:100%;
+  }
+  .user-side-menu-list
+  {
+    margin: 20px;
+  }
+  .list
+  {
+      font-size: 18px;
+      padding: 5px;
+  }
+  .list li
+  {
+    display: list-item;
+    margin: 10px;
+  }
+  .user-main-screen
+  {
+    width: 100%;
+    display:block;
+    text-align:center;
+    padding-bottom: 20px;
+  }
+  .account-details
+  {
+
+  }
+  .user-icon
+  {
+      font-size: 100px;
+      width:100px;
+      display:inline-block;
+      vertical-align: middle;
+  }
+  .details
+  {
+
+    display:inline-block;
+    margin: 0px 60px;
+    vertical-align: middle;
+  }
+  .features
+  {
+
+  }
+  .box
+  {
+    width: 250px;
+    margin: 10px 5px;
+    display:inline-block;
+    cursor: pointer;
+    text-align: center;
+  }
+  .icon
+  {
+
+    font-size: 80px;
+    display:inline-block;
+    vertical-align: middle;
+
+    margin: 0 10px;
+  }
+
+  .box h3
+  {
+
+  }
+
+}
