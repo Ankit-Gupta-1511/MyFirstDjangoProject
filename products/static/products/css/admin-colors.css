@@ -137,3 +137,31 @@ body
 {
 
 }
+
+.detail-box
+{
+  border:1px solid #ccc;
+  box-shadow: 0 0 1px #999;
+}
+
+.detail-box ul li .btn
+{
+  background-color: #f08804;
+  color: white;
+}
+
+
+.detail-box ul li
+{
+
+}
+
+.detail-box .detail-list.right-icon li .btn
+{
+  background-color: #364963;
+}
+
+.table-responsive
+{
+  border: 1px solid #ccc;
+}

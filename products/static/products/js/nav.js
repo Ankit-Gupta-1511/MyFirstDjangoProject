@@ -20,3 +20,7 @@ $(".mobile-list-link").click(function(){
       $(this).children('.mobile-list-sub:hidden').slideDown();
 
 });
+
+$('.toggle-button').click(function(){
+  $('.side-main-list').slideToggle();
+});

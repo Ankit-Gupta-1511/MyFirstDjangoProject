@@ -65,3 +65,30 @@ def adminDash(request):
         'sub_categories_menu': sub_categories_menu,
     }
     return HttpResponse(template.render(context, request))
+
+def adminDashOrderDetails(request):
+    all_categories = Categories.objects.all()
+    template = loader.get_template('products/admin-order-details.html')
+    context = {
+        'all_categories': all_categories,
+        'sub_categories_menu': sub_categories_menu,
+    }
+    return HttpResponse(template.render(context, request))
+
+def adminDashOrderList(request):
+    all_categories = Categories.objects.all()
+    template = loader.get_template('products/admin-order-list.html')
+    context = {
+        'all_categories': all_categories,
+        'sub_categories_menu': sub_categories_menu,
+    }
+    return HttpResponse(template.render(context, request))
+
+def adminDashOrderListByCategory(request):
+    all_categories = Categories.objects.all()
+    template = loader.get_template('products/admin-order-list-by-category.html')
+    context = {
+        'all_categories': all_categories,
+        'sub_categories_menu': sub_categories_menu,
+    }
+    return HttpResponse(template.render(context, request))

@@ -125,6 +125,7 @@ transition: margin ease 0.5s;
   display: inline-block;
   margin: 10px 20px;
   border-radius: 4px;
+  cursor:pointer;
 }
 .box .header
 {
@@ -157,6 +158,7 @@ transition: margin ease 0.5s;
 }
 .analysis-box
 {
+  cursor:pointer;
   width: 40%;
   display: inline-block;
   margin: 20px 20px;
@@ -180,4 +182,66 @@ transition: margin ease 0.5s;
 .table
 {
 
+}
+
+.detail-box
+{
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  vertical-align: top;
+}
+.detail-box .header
+{
+  padding: 10px 20px;
+}
+.detail-box ul li
+{
+  padding:10px;
+}
+
+.detail-box ul li a
+{
+  width:40px;
+  height:40px;
+  padding-top:10px;
+  text-align:center;
+  margin-right: 10px;
+}
+
+.detail-box .detail-list.right-icon li
+{
+    padding: 20px 10px;
+}
+
+.detail-box .detail-list.right-icon li a
+{
+  border-radius:100%;
+  margin-top:-10px;
+}
+
+.data-container
+{
+  width:100%;
+}
+
+.table-container
+{
+  padding: 10px;
+}
+
+td .btn
+{
+  right: 100px;
+}
+.detail-box ul.status-list li
+{
+    padding: 10px 20px;
+}
+.detail-box ul.status-list li a
+{
+  padding:0;
+  width:100%;
+  height:auto;
+  text-align:left;
 }
